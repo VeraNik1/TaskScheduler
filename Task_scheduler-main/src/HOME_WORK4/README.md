@@ -14,6 +14,10 @@
 
 - **TaskImporter** - interface, which defines method for import a current task list from the file.
 
+- **CsvTaskImporter** - class, which implements interface **TaskImporter** for import a task list from xml-file.
+
+- **CsvTaskExporter** - class, which implements interface **TaskExporter** for export the current task list to csv-file.
+
 - **JsonTaskExporter** - class, which implements interface **TaskExporter** for export the current task list to json-file.
 
 - **XmlTaskExporter** - class, which implements interface **TaskExporter** for export the current task list to xml-file.
