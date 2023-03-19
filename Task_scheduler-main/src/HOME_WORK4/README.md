@@ -1,7 +1,7 @@
 ## Task scheduler includes:
 
 - **Priority** - levels of task's priority.
-- **Task** - class, which includes fields: ID, StartDate, DeadLineDate, Priority, Author, Controller, Date of creation;
+- **Task** - class, which includes fields: ID, StartDate, DeadLineDate, Priority, Author, Controller, Description, Date of creation;
 - **Employee** - class, which describes person and includes fields: name and position;
 - **TaskStorage** - interface, which defines some methods: add a task, delete the task, to get task by ID, to get the task list.
 - **CurrentTaskStorage** - class, which implements **TaskStorage** for saving tasks in RAM.
